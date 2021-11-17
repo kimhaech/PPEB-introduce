@@ -76,7 +76,11 @@
 
 - Version 1.0 PnP Web site (Main Page) was Updated by Sihyun Kim
 
-yarn을 사용하시는 분이시고, 관련 명령어가 익숙치 않은 부분을 아래 명령어를 참고해주시면 됩니다.
+
+
+
+
+### yarn 명령어 사용하시는 분이시고, 관련 명령어가 익숙치 않은 부분을 아래 명령어를 참고해주세요.
 
 # Getting Started with Create React App
 
