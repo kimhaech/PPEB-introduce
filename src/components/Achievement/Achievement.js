@@ -1,32 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import MemberItem from './MemberItem';
+import AchievementItem from './AchievementItem';
 
-const Member = () => {
+const Achievement = () => {
   return (
     <section
-      id="member"
-      className="text-gray-700 body-font border-t border-b border-gray-200"
+      id="achievement"
+      className="text-gray-700 body-font border-t border-gray-200"
     >
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
-            MEMBERS
+            ACHIEVEMENTS
           </h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            구성원
+            활동 성과
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3">
-            현재 활동중인 학회원들을 소개합니다.
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3 -mb-5">
+            PnP에서 이룬 활동 성과를 소개합니다.
           </p>
         </div>
 
-        <div className="flex flex-wrap -m-2">
-          <MemberItem />
+        <div className="flex flex-wrap -mx-4">
+          <AchievementItem />
         </div>
 
-        <Link to="/members">
+        <Link to="/achievements">
           <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             더보기
             <svg
@@ -50,4 +50,4 @@ const Member = () => {
   );
 };
 
-export default Member;
+export default Achievement;
