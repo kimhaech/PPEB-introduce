@@ -8,9 +8,9 @@
 - 팀장 : 이지석
 - 개발자 : 이지석, 김대원, 김시현, 김주원, 김태우
   - 담당 
-    - 이지석 : Leader / Project Manager / Blog Pager
+    - 이지석 : Leader / Project Manager / Blog Page
     - 김시현 : Main page / Set Router for About, Achievements , Members, Recruit
-    - 김대원 : Member Page, Secretary Staff for Project
+    - 김대원 : Secretary Staff for Project / Member Page
     - 김주원 : FAQ Page / Set Router for Blog, FAQ
     - 김태우 : Achievements Page
 
