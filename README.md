@@ -1,5 +1,10 @@
 # PNP WEB PAGE 
 
+- Update Version 1.2
+  - 날짜 : 2021. 11. 19  20:54 
+  - 내용 : complete member page
+  - 작성자 : dddd
+
 - Update Version 1.1
   - 날짜 : 2021. 11. 17  20:54 
   - 내용 : Update router settings for pages
