@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 function About() {
@@ -134,6 +134,29 @@ function About() {
             </div>
           </Fade>
         </div>
+
+              <div className="containerpy-6">
+                <Link to="/About">
+                    <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg m-8">
+                        더보기
+                        <svg
+                            className="w-6 h-6 mt-0.5 ml-1"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M17 8l4 4m0 0l-4 4m4-4H3"
+                        ></path>
+                        </svg>
+                    </button>
+                </Link>
+                
+            </div >
       </div>
     </section>
   );
