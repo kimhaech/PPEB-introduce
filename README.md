@@ -2,7 +2,7 @@
 
 - Update Version 0.3
   - 날짜 : 2021. 11. 26   
-  - 내용 : FAQ Page Upload
+  - 내용 : About Page Upload & Update FAQ Page
   - 작성자 : Juwon Kim 
 
 - 팀장 : 이지석
@@ -79,7 +79,9 @@
 
 - Version 0.1 PnP Web site (Main Page) was Updated by Sihyun Kim
 - Version 0.2 PnP Web site router settings for pages Updated by Juwon Kim ( Made by Sihyun Kim & Juwon Kim)
-yarn을 사용하시는 분이시고, 관련 명령어가 익숙치 않은 부분을 아래 명령어를 참고해주시면 됩니다.
+- Version 0.3 PnP Web site FAQ Page Uploaded by Juwon Kim 
+
+`yarn을 사용하시는 분이시고, 관련 명령어가 익숙치 않은 부분을 아래 명령어를 참고해주시면 됩니다.`
 
 # Getting Started with Create React App
 

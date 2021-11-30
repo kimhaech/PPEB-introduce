@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -46,27 +47,27 @@ const About_history = () => {
       className="text-gray-700 body-font border-t border-gray-200"
     >
         
-        <div class="container mx-auto flex flex-col items-start md:flex-row md:my-12">
+        <div class="container flex flex-col md:flex-row md:my-12">
             <Fade bottom>
-                    <div class="container mx-auto md:mx-auto w-full h-full">
+                    <div class="container w-full h-full">
                         <div class="relative wrap overflow-hidden h-full">
                             <div
                                 class="border-10-10 border-indigo-400 absolute h-full border"
                                 style={{
-                                right: '90%',
+                                right: '80%',
                                 borderRadius: '10%',
                                 }}
                             ></div>
                             <div
                                 class="border-10-10 border-indigo-400 absolute h-full border"
                                 style={{
-                                left: '10%',
+                                left: '20%',
                                 borderRadius: '10%',
                                 }}
                             ></div>
                             
                             
-                            <div class="col-start-10 col-end-6 md:mx-auto relative mr-10">
+                            <div class="col-start-10 col-end-6 relative ">
                                 <div class="h-full w-6 flex items-center justify-center">
                                     <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
                                 </div>
@@ -76,23 +77,24 @@ const About_history = () => {
                             </div>
                             
                             <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="w-5/12"></div>
-                                <div class="rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
-                                    <p class="mb-3 text-base text-indigo-500">
-                                        2022
-                                    </p>
-                                    <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                                        학회 서버내의 독립적인 PnP 공식 홈페이지 개설
-                                    </h4>
-                                    <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
-                                        PnP Web Project Team이 학교 서버를 이용하여 공식 홈페이지를 개설하였습니다.
-                                        <br/>개발팀장 : 이지석
-                                        <br/>개발팀원 : 김대원, 김주원, 김태우
-                                    </p>
-                                </div>
+                                <div class="w-1/2"></div>
+                                    <div class="rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
+                                        <p class="mb-3 text-base text-indigo-500">
+                                            2022
+                                        </p>
+                                        <h4 class="mb-3 font-bold text-lg md:text-2xl">
+                                            학회 서버내의 독립적인 PnP 공식 홈페이지 개설
+                                        </h4>
+                                        <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
+                                            PnP Web Project Team이 학교 서버를 이용하여 공식 홈페이지를 개설하였습니다.
+                                            <br/>개발팀장 : 이지석
+                                            <br/>개발팀원 : 김대원, 김주원, 김태우
+                                        </p>
+                                    </div>
+                                
                             </div>
                             <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="order-1 w-5/12"></div>
+                                <div class="w-1/2"></div>
                                 <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2021
@@ -107,7 +109,7 @@ const About_history = () => {
                                 </div>
                             </div>
                             <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="order-1 w-5/12"></div>
+                                <div class="w-1/2"></div>
                                 <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2020
@@ -121,7 +123,7 @@ const About_history = () => {
                                 </div>
                             </div>
                             <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="order-1 w-5/12"></div>
+                                <div class="w-1/2"></div>
                                 <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2015
@@ -135,7 +137,7 @@ const About_history = () => {
                                 </div>
                             </div>
                             <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="order-1 w-5/12"></div>
+                                <div class="w-1/2"></div>
                                 <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2012
@@ -149,7 +151,7 @@ const About_history = () => {
                                 </div>
                             </div>
                             <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="order-1 w-5/12"></div>
+                                <div class="w-1/2"></div>
                                 <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         ~2011
@@ -164,7 +166,7 @@ const About_history = () => {
                             </div>
 
                             <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="order-1 w-5/12"></div>
+                                <div class="w-1/2"></div>
                                 <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2000
@@ -179,7 +181,7 @@ const About_history = () => {
                             </div>
 
                             <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="order-1 w-5/12"></div>
+                                <div class="w-1/2"></div>
                                 <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         1999
