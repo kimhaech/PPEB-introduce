@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-
 import Index from './pages/Index';
 import About from './pages/About';
 import Achievements from './pages/Achievements';
@@ -8,7 +7,9 @@ import Members from './pages/Members';
 import Recruit from './pages/Recruit';
 import FAQ from './pages/FAQ';
 import Blog from './pages/Blog';
-
+import Graduates from './components/Member/Daewon/Graduate/Graduates'
+//import Graduates from './components/Member/Daewon/Graduate/Graduates';
+//<Route path="/graduates" component={Graduates} />
 const App = () => {
   return (
     <div>
@@ -19,8 +20,9 @@ const App = () => {
       <Route path="/recruit" component={Recruit} />
       <Route path="/FAQ" component={FAQ} />
       <Route path="/Blog" component={Blog} />
+      <Route path="/graduates" component={Graduates} />
     </div>
-  );
+  )
 };
 
 export default App;
