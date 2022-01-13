@@ -2,8 +2,8 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 const About_history = () => {
   return (
@@ -13,7 +13,7 @@ const About_history = () => {
             <div className="flex flex-col text-center w-full">
                 <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
                     About
-                 </h2>
+                </h2>
                 <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
                     학회소개
                 </h1>
@@ -40,6 +40,11 @@ const About_history = () => {
                         학회장
                     </button>
                 </Link>
+                <Link to="/About_professor">
+                    <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+                        교수
+                    </button>
+                </Link>
             </div>
     </div>
     <section
@@ -58,6 +63,7 @@ const About_history = () => {
                                 borderRadius: '10%',
                                 }}
                             ></div>
+
                             <div
                                 class="border-10-10 border-indigo-400 absolute h-full border"
                                 style={{
@@ -65,37 +71,35 @@ const About_history = () => {
                                 borderRadius: '10%',
                                 }}
                             ></div>
+
                             
-                            
-                            <div class="col-start-10 col-end-6 relative ">
-                                <div class="h-full w-6 flex items-center justify-center">
-                                    <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
-                                </div>
-                                <div
-                                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
-                                ></div>
-                            </div>
-                            
-                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="w-1/2"></div>
-                                    <div class="rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
-                                        <p class="mb-3 text-base text-indigo-500">
-                                            2022
-                                        </p>
-                                        <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                                            학회 서버내의 독립적인 PnP 공식 홈페이지 개설
-                                        </h4>
-                                        <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
-                                            PnP Web Project Team이 학교 서버를 이용하여 공식 홈페이지를 개설하였습니다.
-                                            <br/>개발팀장 : 이지석
-                                            <br/>개발팀원 : 김대원, 김주원, 김태우
-                                        </p>
+                            <div class="mb-8 flex items-center w-full justify-between space-x-10">
+                                <div class="order-1 w-1/5"></div>
+                                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                                        <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
                                     </div>
+                                <div class="order-1 rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
+                                    <p class="mb-3 text-base text-indigo-500">
+                                        2022
+                                    </p>
+                                    <h4 class="mb-3 font-bold text-lg md:text-2xl">
+                                        학회 서버내의 독립적인 PnP 공식 홈페이지 개설
+                                    </h4>
+                                    <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
+                                        PnP Web Project Team이 학교 서버를 이용하여 공식 홈페이지를 개설하였습니다.
+                                        <br/>개발팀장 : 이지석
+                                        <br/>개발팀원 : 김대원, 김주원, 김태우
+                                    </p>
                                 
+                                </div>
                             </div>
-                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="w-1/2"></div>
-                                <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
+
+                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full space-x-10">
+                                <div class="order-1 w-1/5"></div>
+                                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                                        <h1 class="mx-auto font-semibold text-lg text-white">2</h1>
+                                    </div>
+                                <div class="order-1 rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2021
                                     </p>
@@ -108,9 +112,13 @@ const About_history = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="w-1/2"></div>
-                                <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
+
+                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full space-x-10">
+                                <div class="order-1 w-1/5"></div>
+                                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                                        <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+                                    </div>
+                                <div class="order-1 rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2020
                                     </p>
@@ -122,9 +130,13 @@ const About_history = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="w-1/2"></div>
-                                <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
+                            
+                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full space-x-10">
+                                <div class="order-1 w-1/5"></div>
+                                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                                        <h1 class="mx-auto font-semibold text-lg text-white">4</h1>
+                                    </div>
+                                <div class="order-1 rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2015
                                     </p>
@@ -134,11 +146,15 @@ const About_history = () => {
                                     <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
                                         디지털정보공학과와 컴퓨터공학과가 컴퓨터전자시스템공학부로 학부가 통합되었습니다.
                                     </p>
-                                </div>
+                                </div>    
                             </div>
-                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="w-1/2"></div>
-                                <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
+
+                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full space-x-10">
+                                <div class="order-1 w-1/5"></div>
+                                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                                        <h1 class="mx-auto font-semibold text-lg text-white">5</h1>
+                                    </div>
+                                <div class="order-1 rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2012
                                     </p>
@@ -150,9 +166,13 @@ const About_history = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="w-1/2"></div>
-                                <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
+
+                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full space-x-10">
+                                <div class="order-1 w-1/5"></div>
+                                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                                        <h1 class="mx-auto font-semibold text-lg text-white">6</h1>
+                                    </div>
+                                <div class="order-1 rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         ~2011
                                     </p>
@@ -165,14 +185,16 @@ const About_history = () => {
                                 </div>
                             </div>
 
-                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="w-1/2"></div>
-                                <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
+                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full space-x-10">
+                                <div class="order-1 w-1/5"></div>
+                                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                                        <h1 class="mx-auto font-semibold text-lg text-white">7</h1>
+                                    </div>
+                                <div class="order-1 rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2000
                                     </p>
-                                    <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
-                                        지도교수 이재혁 교수님 부임
+                                        <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">                                            지도교수 이재혁 교수님 부임
                                     </h4>
                                     <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
                                         이재혁 교수님께서 2000년부터 한국외대 과학기술 학회 PnP의 지도교수님으로 부임하여 현재까지 지도교수님을 맡아주고 계십니다.
@@ -180,9 +202,12 @@ const About_history = () => {
                                 </div>
                             </div>
 
-                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full">
-                                <div class="w-1/2"></div>
-                                <div class="rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
+                            <div class="mb-8 flex md:flex-shrink-0 items-center w-full space-x-10">
+                                <div class="order-1 w-1/5"></div>
+                                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                                        <h1 class="mx-auto font-semibold text-lg text-white">8</h1>
+                                    </div>
+                                <div class="order-1 rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         1999
                                     </p>

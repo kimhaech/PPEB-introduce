@@ -1,11 +1,11 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
-import mainlogo from '../static/images/about/main.png'
-import hufslogo from '../static/images/about/school.png'
-import finalgoal from '../static/images/about/success.png'
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import mainlogo from '../../static/images/about/main.png'
+import hufslogo from '../../static/images/about/school.png'
+import finalgoal from '../../static/images/about/success.png'
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 const About = () => {
   return (
@@ -42,6 +42,12 @@ const About = () => {
               학회장
             </button>
           </Link>
+          <Link to="/About_professor">
+            <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+              교수
+            </button>
+          </Link>
+
         </div>
       </div>
       <section

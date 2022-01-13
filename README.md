@@ -1,8 +1,8 @@
 # PNP WEB PAGE 
 
-- Update Version 0.3
-  - 날짜 : 2021. 11. 26   
-  - 내용 : About Page Upload & Update FAQ Page
+- Update Version 0.5
+  - 날짜 : 2022. 01. 13   
+  - 내용 : About Page was Updated
   - 작성자 : Juwon Kim 
 
 - 팀장 : 이지석
@@ -11,7 +11,7 @@
     - 이지석 : Leader / Project Manager / Blog Pager
     - 김시현 : Main page / Set Router for About, Achievements , Members, Recruit
     - 김대원 : Member Page, Secretary Staff for Project
-    - 김주원 : FAQ Page / Set Router for Blog, FAQ
+    - 김주원 : FAQ Page / Set Router for Blog, FAQ / About Page 
     - 김태우 : Achievements Page
 
 
@@ -79,7 +79,8 @@
 
 - Version 0.1 PnP Web site (Main Page) was Updated by Sihyun Kim
 - Version 0.2 PnP Web site router settings for pages Updated by Juwon Kim ( Made by Sihyun Kim & Juwon Kim)
-- Version 0.3 PnP Web site FAQ Page Uploaded by Juwon Kim 
+- Version 0.3 PnP Web site FAQ Page was Uploaded by Juwon Kim 
+- Version 0.4 PnP Web site About Page was Uploaded and FAQ Page was Updated by Juwon Kim
 
 `yarn을 사용하시는 분이시고, 관련 명령어가 익숙치 않은 부분을 아래 명령어를 참고해주시면 됩니다.`
 
