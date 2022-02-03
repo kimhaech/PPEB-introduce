@@ -8,12 +8,11 @@
 - 팀장 : 이지석
 - 개발자 : 이지석, 김대원, 김시현, 김주원, 김태우
   - 담당 
-    - 이지석 : Leader / Project Manager / Blog Pager
+    - 이지석 : Leader / Project Manager / Blog Page
     - 김시현 : Main page / Set Router for About, Achievements , Members, Recruit
     - 김대원 : Member Page, Secretary Staff for Project
     - 김주원 : FAQ Page / Set Router for Blog, FAQ / About Page 
     - 김태우 : Achievements Page
-
 
 ## Checklist for git cloning Project
 
