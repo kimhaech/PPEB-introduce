@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 
 const FAQ = () => {
     const [title, setTitle] = useState('');
-    const [content, setContent] = useState('');
+    const [content] = useState('');
     
   return (
     

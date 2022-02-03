@@ -1,9 +1,9 @@
 # PNP WEB PAGE 
 
-- Update Version 0.5
-  - 날짜 : 2022. 01. 13   
-  - 내용 : About Page was Updated
-  - 작성자 : Juwon Kim 
+- Update Version 0.8
+  - 날짜 : 2022. 02. 03   
+  - 내용 : Member Page was Uploaded
+  - 작성자 : Daewon Kim 
 
 - 팀장 : 이지석
 - 개발자 : 이지석, 김대원, 김시현, 김주원, 김태우
@@ -18,7 +18,6 @@
 
 1. fork 확인 
 - PPEB-introduce 폴더를 본인의 계정에 fork 해두시고 수정을 해주세요. 
-
 2. Page 실행
   #### 설치
   1. git을 사용해서 다운로드를 진행합니다.  
@@ -51,7 +50,10 @@
   yarn add react-router-dom@5.2 --save ## npm install react-router-dom --save 
   ```
 
-  이외 다운로드와 관련해서 문제 사항이 있을 경우 Version 1.1 Update를 진행한 김주원에게 연락해주시기 바랍니다.
+  - react-google-charts를 다운로드 받아주세요!
+  ```bash
+  yarn add react-google-charts ## npm install react-google-charts
+  ```
 
 3. 메인 페이지 업로드 공간 
 
@@ -80,6 +82,9 @@
 - Version 0.2 PnP Web site router settings for pages Updated by Juwon Kim ( Made by Sihyun Kim & Juwon Kim)
 - Version 0.3 PnP Web site FAQ Page was Uploaded by Juwon Kim 
 - Version 0.4 PnP Web site About Page was Uploaded and FAQ Page was Updated by Juwon Kim
+- Version 0.5 PnP Web site About Page was Updated by Juwon Kim
+- Version 0.6 PnP Web site Achievement Page was Uploaded by Taewoo Kim
+- Version 0.7 PnP Web site Blog Page was Uploaded by Jiseok Kim
 
 `yarn을 사용하시는 분이시고, 관련 명령어가 익숙치 않은 부분을 아래 명령어를 참고해주시면 됩니다.`
 
