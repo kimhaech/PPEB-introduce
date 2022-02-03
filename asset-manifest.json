@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PPEB-introduce/static/css/main.de5c3c23.chunk.css",
-    "main.js": "/PPEB-introduce/static/js/main.d24ff9f5.chunk.js",
-    "main.js.map": "/PPEB-introduce/static/js/main.d24ff9f5.chunk.js.map",
+    "main.js": "/PPEB-introduce/static/js/main.037c3e33.chunk.js",
+    "main.js.map": "/PPEB-introduce/static/js/main.037c3e33.chunk.js.map",
     "runtime-main.js": "/PPEB-introduce/static/js/runtime-main.9cca8c89.js",
     "runtime-main.js.map": "/PPEB-introduce/static/js/runtime-main.9cca8c89.js.map",
     "static/js/2.899a8ae1.chunk.js": "/PPEB-introduce/static/js/2.899a8ae1.chunk.js",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.9cca8c89.js",
     "static/js/2.899a8ae1.chunk.js",
     "static/css/main.de5c3c23.chunk.css",
-    "static/js/main.d24ff9f5.chunk.js"
+    "static/js/main.037c3e33.chunk.js"
   ]
 }
