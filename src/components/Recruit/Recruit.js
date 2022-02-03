@@ -1,7 +1,6 @@
 import React from 'react';
 
 import recruitimage from '../../static/svg/recruit.svg';
-
 import Fade from 'react-reveal/Fade';
 
 const Recruit = () => {

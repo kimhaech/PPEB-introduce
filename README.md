@@ -1,8 +1,8 @@
 # PNP WEB PAGE 
 
-- Update Version 1.1
-  - 날짜 : 2021. 11. 17  20:54 
-  - 내용 : Update router settings for pages
+- Update Version 0.5
+  - 날짜 : 2022. 01. 13   
+  - 내용 : About Page was Updated
   - 작성자 : Juwon Kim 
 
 - 팀장 : 이지석
@@ -10,10 +10,9 @@
   - 담당 
     - 이지석 : Leader / Project Manager / Blog Page
     - 김시현 : Main page / Set Router for About, Achievements , Members, Recruit
-    - 김대원 : Secretary Staff for Project / Member Page
-    - 김주원 : FAQ Page / Set Router for Blog, FAQ
+    - 김대원 : Member Page, Secretary Staff for Project
+    - 김주원 : FAQ Page / Set Router for Blog, FAQ / About Page 
     - 김태우 : Achievements Page
-
 
 ## Checklist for git cloning Project
 
@@ -49,7 +48,7 @@
   
   - 페이지 이동이안되거나 라우터가 제대로 작동하지 않거나 `react-router-dom`에 관해서 문제가 생길 경우 아래 명령어를 실행해보세요. 
   ```bash
-  yarn add react-router-dom --save ## npm install react-router-dom --save 
+  yarn add react-router-dom@5.2 --save ## npm install react-router-dom --save 
   ```
 
   이외 다운로드와 관련해서 문제 사항이 있을 경우 Version 1.1 Update를 진행한 김주원에게 연락해주시기 바랍니다.
@@ -66,6 +65,9 @@
   - Header에 있는 탭을 클릭하거나, 더보기를 눌렀을 때 이동하는 페이지
   - 본인의 페이지를 내용에 추가하면 됩니다.
 
+5. react-router-dom
+- react-router-dom이 버전 6로 업데이트 되면서 버전6를 다운로드 받으면 그전 버전으로 되어있기 때문에 router관련한 오류가 발생합니다. 따라서 5.2 router버전을 다운로드 해주시기 바랍니다. version6로 라우터를 업데이트 해놓도록 하겠습니다. 
+- 링크 참고 : `https://velog.io/@soryeongk/ReactRouterDomV6`
 
 ## Warning 
 - 프로젝트를 git clone을 하실 때, 개인 계정에 fork한 뒤 다시 업로드를 하는 방식을 이용해주세요. 
@@ -74,13 +76,12 @@
 
 ## Last Updates
 
-- Version 1.0 PnP Web site (Main Page) was Updated by Sihyun Kim
+- Version 0.1 PnP Web site (Main Page) was Updated by Sihyun Kim
+- Version 0.2 PnP Web site router settings for pages Updated by Juwon Kim ( Made by Sihyun Kim & Juwon Kim)
+- Version 0.3 PnP Web site FAQ Page was Uploaded by Juwon Kim 
+- Version 0.4 PnP Web site About Page was Uploaded and FAQ Page was Updated by Juwon Kim
 
-
-
-
-
-### yarn 명령어 사용하시는 분이시고, 관련 명령어가 익숙치 않은 부분을 아래 명령어를 참고해주세요.
+`yarn을 사용하시는 분이시고, 관련 명령어가 익숙치 않은 부분을 아래 명령어를 참고해주시면 됩니다.`
 
 # Getting Started with Create React App
 
