@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import heo from '../../static/images/leaders/20202021.png'
 import park from '../../static/images/leaders/2019.png'
 import jung from '../../static/images/leaders/2018.png'
+import kim from '../../static/images/leaders/2022.png'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
@@ -22,7 +23,7 @@ const About_leader = () => {
             </div>
             <div className="flex flex-row place-content-center mt-8">
                 <Link to="/About">
-                    <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+                    <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-black-800 text-lg">
                         학회소개
                     </button>
                 </Link>
@@ -50,8 +51,28 @@ const About_leader = () => {
             </div>
         </div>
       <section className= "border-t border-gray-200">
-      <div className="flex md:flex-wrap-3 justify-center space-x-6">
+      <div className="flex flex-wrap justify-center gap-4">
       <Fade bottom>
+      <div className="flex flex-col text-center w-1/4 mb-8 mt-12">
+          <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
+            <div class="md:flex-col">
+              <div class="md:flex-shrink-0">
+              <img
+                class="object-cover md:h-full md:w-full"
+                src={kim}
+              />
+              </div>
+              <div class="p-8">
+                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">2022</h2>
+                <h1 class="sm:text-2xl font-medium title-font mb-4 text-fuchsia-900">김태우</h1>
+                <p className="mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
+                컴퓨터전자시스템공학부 17학번
+                <br/>이메일 : epiclog@naver.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       <div className="flex flex-col text-center w-1/4 mb-8 mt-12">
           <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
             <div class="md:flex-col">
@@ -66,7 +87,7 @@ const About_leader = () => {
                 <h1 class="sm:text-2xl font-medium title-font mb-4 text-gray-900">허성일</h1>
                 <p className="mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
                 컴퓨터전자시스템공학부 16학번
-                <br/>재임 기간: 2020.01 ~ 2021.12
+                <br/>이메일 : tjddlf101@gmail.com
                 </p>
               </div>
             </div>
@@ -87,14 +108,14 @@ const About_leader = () => {
                 <h1 class="sm:text-2xl font-medium title-font mb-4 text-gray-900">박기웅</h1>
                 <p className="mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
                 컴퓨터전자시스템공학부 16학번
-                <br/>재임 기간: 2019.01 ~ 2019.12
+                <br/>이메일 : psh090953@gmail.com
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-col text-center mr-2 w-1/4 mb-8 mt-12">
+        <div className="flex flex-col text-center w-1/4 mb-8 mt-12">
           <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
             <div class="md:flex-col">
               <div class="md:flex-shrink-0">
@@ -108,7 +129,7 @@ const About_leader = () => {
                 <h1 class="sm:text-2xl font-medium title-font mb-4 text-gray-900">정희택</h1>
                 <p className="mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
                 디지털정보공학과 12학번
-                <br/>재임 기간: 2018.01 ~ 2018.12
+                <br/>이메일 : XXXXX@gmail.com
                 </p>
               </div>
             </div>

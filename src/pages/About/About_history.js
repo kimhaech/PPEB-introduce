@@ -1,7 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
-
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
@@ -52,7 +51,7 @@ const About_history = () => {
       className="text-gray-700 body-font border-t border-gray-200"
     >
         
-        <div class="container flex flex-col md:flex-row md:my-12">
+        <div class="container flex flex-col md:flex-row md:my-6">
             <Fade bottom>
                     <div class="container w-full h-full">
                         <div class="relative wrap overflow-hidden h-full">
