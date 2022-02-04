@@ -12,7 +12,7 @@ class Buttons extends Component {
             </button>
           </Link>
           <Link to="/graduates">
-            <button className="text-gray-600 bg-white border-b-2 border-indigo-00 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+            <button className="text-gray-600 bg-white border-b-2 border-indigo-400 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
               졸업생
             </button>
           </Link>
