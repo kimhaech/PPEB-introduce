@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PPEB-introduce/static/css/main.85786d32.chunk.css",
-    "main.js": "/PPEB-introduce/static/js/main.7c9551ac.chunk.js",
-    "main.js.map": "/PPEB-introduce/static/js/main.7c9551ac.chunk.js.map",
+    "main.js": "/PPEB-introduce/static/js/main.24b5a18b.chunk.js",
+    "main.js.map": "/PPEB-introduce/static/js/main.24b5a18b.chunk.js.map",
     "runtime-main.js": "/PPEB-introduce/static/js/runtime-main.9cca8c89.js",
     "runtime-main.js.map": "/PPEB-introduce/static/js/runtime-main.9cca8c89.js.map",
     "static/js/2.899a8ae1.chunk.js": "/PPEB-introduce/static/js/2.899a8ae1.chunk.js",
@@ -27,6 +27,7 @@
     "static/media/kshieldjr.2de43581.jpg": "/PPEB-introduce/static/media/kshieldjr.2de43581.jpg",
     "static/media/leejiseok.82896da3.png": "/PPEB-introduce/static/media/leejiseok.82896da3.png",
     "static/media/logo.ff95cd7e.svg": "/PPEB-introduce/static/media/logo.ff95cd7e.svg",
+    "static/media/logo_black.e07fe492.png": "/PPEB-introduce/static/media/logo_black.e07fe492.png",
     "static/media/main.d8aac4a1.png": "/PPEB-introduce/static/media/main.d8aac4a1.png",
     "static/media/mlsa.fb7c7f9a.png": "/PPEB-introduce/static/media/mlsa.fb7c7f9a.png",
     "static/media/professor.3ec1d7f7.png": "/PPEB-introduce/static/media/professor.3ec1d7f7.png",
@@ -40,6 +41,6 @@
     "static/js/runtime-main.9cca8c89.js",
     "static/js/2.899a8ae1.chunk.js",
     "static/css/main.85786d32.chunk.css",
-    "static/js/main.7c9551ac.chunk.js"
+    "static/js/main.24b5a18b.chunk.js"
   ]
 }
