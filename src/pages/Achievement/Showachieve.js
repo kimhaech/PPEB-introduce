@@ -1,7 +1,7 @@
 import React from 'react'
 import Yearslist from './Yearslist.json'
 import ReAchieve from './ReAchieve'
-import ParticlesBg from 'particles-bg'
+// import ParticlesBg from 'particles-bg'
 
 const Showachieve = (props) => {
   let y = props['year'] // 년도
@@ -27,7 +27,7 @@ const Showachieve = (props) => {
           <ReAchieve ind={one} ix={idx} y={y}></ReAchieve>
         </div>
       ))}
-      <ParticlesBg type="cobweb" bg={true} />
+      {/* <ParticlesBg type="cobweb" bg={true} /> */}
     </>
   )
 }
