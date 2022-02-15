@@ -30,9 +30,9 @@ const Achievements = () => {
         </div>
       </div>
 
+    <div class="flex flex-col items-center">
       <br></br>
-      <select
-        class="fixed grid grid-cols-10 gap-1 m-10 place-items-center"
+      <select class="fixed mx-10 text-center z-50"
         onChange={FocusOn}
       >
         <option selected disabled>
@@ -43,7 +43,7 @@ const Achievements = () => {
           <option>{year}</option>
         ))}
       </select>
-
+      </div>
       <br></br>
       <AchieveLists />
     </div>
