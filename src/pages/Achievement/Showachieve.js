@@ -18,7 +18,7 @@ const Showachieve = (props) => {
   return (
     <>
       <div id={y}>
-        <h1 class="z-20 flex items-center w-20 h-8 rounded-full font-semibold text-lg text-white mx-auto bg-black text-top justify-center">
+        <h1 class="z-20 mb-3 flex items-center w-20 h-8 rounded-full font-semibold text-lg text-white mx-auto bg-black text-top justify-center">
           {y}
         </h1>
       </div>
