@@ -3,6 +3,7 @@ import React from 'react'
 import Header from '../../components/Header'
 import AchieveLists from './AchieveLists'
 import Yearslist from './Yearslist.json'
+import Footer from '../../components/Footer';
 
 const Achievements = () => {
   const FocusOn = (event) => {
@@ -46,6 +47,7 @@ const Achievements = () => {
       </div>
       <br></br>
       <AchieveLists />
+      <Footer />
     </div>
   )
 }
