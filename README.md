@@ -1,9 +1,9 @@
 # PNP WEB PAGE 
 
 - Update Version 0.8
-  - 날짜 : 2022. 02. 03   
-  - 내용 : Member Page was Uploaded
-  - 작성자 : Daewon Kim 
+  - 날짜 : 2022. 02. 15   
+  - 내용 : modify the Achievement page to responsive page
+  - 작성자 : Taewoo Kim
 
 - 팀장 : 이지석
 - 개발자 : 이지석, 김대원, 김시현, 김주원, 김태우
