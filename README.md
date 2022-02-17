@@ -97,7 +97,7 @@ yarn add react-google-charts ## npm install react-google-charts
 - Version 0.5 PnP Web site About Page was Updated by Juwon Kim
 - Version 0.6 PnP Web site Achievement Page was Uploaded by Taewoo Kim
 - Version 0.7 PnP Web site Blog Page was Uploaded by Jiseok Lee
-
+  - Version 0.71 Fix unloaded images in Blog Page by Seongil Heo
 `yarn을 사용하시는 분이시고, 관련 명령어가 익숙치 않은 부분을 아래 명령어를 참고해주시면 됩니다.`
 
 # Getting Started with Create React App
