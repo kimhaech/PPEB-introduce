@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-
 import Index from './pages/Index';
 import About from './pages/About/About';
 import About_history from './pages/About/About_history';
@@ -38,7 +37,7 @@ const App = () => {
       <Route path="/Blog_ai" component={Blog_ai} />
       <Route path="/Blog_game" component={Blog_game} />
     </div>
-  );
+  )
 };
 
 export default App;
