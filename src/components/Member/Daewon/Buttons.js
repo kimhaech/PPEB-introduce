@@ -4,17 +4,19 @@ import { Link } from 'react-router-dom';
 class Buttons extends Component {
   render() {
     return (
-      <div className="flex felx-row justify-center space-x-20 mt-16">
-        <Link to="/members">
-          <div className="h-16 w-32 border-purple-300 border rounded-lg transform hover:shadow-lg motion-reduce:transform-none tracking-widest font-medium title-font">
-            <div className="text-center mt-5">재학생</div>
-          </div>
-        </Link>
-        <Link to="/graduates">
-          <div className="h-16 w-32 border-purple-300 border rounded-lg transform hover:shadow-lg motion-reduce:transform-none text-l tracking-widest font-medium title-font">
-            <div className="text-center mt-5">졸업생</div>
-          </div>
-        </Link>
+      <div class="mt-12">
+        <div className="flex flex-row place-content-center mt-8">
+          <Link to="/members">
+            <button className="text-gray-600 bg-white border-b-2 border-indigo-400 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+              재학생
+            </button>
+          </Link>
+          <Link to="/graduates">
+            <button className="text-gray-600 bg-white border-b-2 border-indigo-400 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+              졸업생
+            </button>
+          </Link>
+        </div>
       </div>
     )
   }

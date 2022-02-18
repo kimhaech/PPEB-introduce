@@ -71,7 +71,7 @@ class ShowMember extends Component {
                         if (Data.github !== 'none') {
                           return (
                             <img
-                              class="w-4 h-4 transform hover:scale-110 motion-reduce:transform-none"
+                              class="w-4 h-4 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2021/09/11/12/17/github-6615451_960_720.png"
                               onClick={() => window.open(Data.github, '_blank')}
@@ -84,7 +84,7 @@ class ShowMember extends Component {
                         if (Data.github === 'none') {
                           return (
                             <img
-                              class="w-4 h-4 transform hover:scale-110 motion-reduce:transform-none"
+                              class="w-4 h-4 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2013/07/12/12/40/abort-146096_960_720.png"
                               onClick={() => alert('empty_github_URL')}
@@ -97,7 +97,7 @@ class ShowMember extends Component {
                         if (Data.blog !== 'none') {
                           return (
                             <img
-                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none"
+                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_960_720.png"
                               onClick={() => window.open(Data.blog, '_blank')}
@@ -110,7 +110,7 @@ class ShowMember extends Component {
                         if (Data.blog === 'none') {
                           return (
                             <img
-                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none"
+                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2013/07/12/12/40/abort-146096_960_720.png"
                               onClick={() => alert('empty_blog_URL')}
@@ -123,7 +123,7 @@ class ShowMember extends Component {
                         if (Data.email !== 'none') {
                           return (
                             <img
-                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none"
+                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2014/07/10/14/58/letters-389108_960_720.png"
                               onClick={() => alert('email: ' + Data.email)}
@@ -136,7 +136,7 @@ class ShowMember extends Component {
                         if (Data.email === 'none') {
                           return (
                             <img
-                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none"
+                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2013/07/12/12/40/abort-146096_960_720.png"
                               onClick={() => alert('empty_email')}

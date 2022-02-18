@@ -39,12 +39,12 @@ class ShowMember extends Component {
             </div>
           </div>
           <div className="flex-grow mt-2 -ml-4">
-                  <div>
-                    <h2 className="text-black-900 title-font font-medium text-center">
-                      {Data.name}
-                    </h2>
-                    <p className="text-gray-500 text-center">{Data.classof}</p>
-                  </div>
+            <div>
+              <h2 className="text-black-900 title-font font-medium text-center">
+                {Data.name}
+              </h2>
+              <p className="text-gray-500 text-center">{Data.classof}</p>
+            </div>
           </div>
         </div>
       )

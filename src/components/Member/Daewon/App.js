@@ -1,11 +1,9 @@
+
 /*
 import { Component, React } from 'react';
 import { Route } from 'react-router-dom'
 import Graduates from './graduates';
 import Members from './pages/Members';
-
-
-
 
 class App extends Component{
   render() {
@@ -19,7 +17,7 @@ class App extends Component{
 }
 
 export default App;
-*/
 
+*/
 
 

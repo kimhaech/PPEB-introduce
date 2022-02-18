@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Fade from 'react-reveal/Fade';
-
 const AchievementModal = ({ itemsToShow, clickItems }) => {
     const list = (
         <div>
