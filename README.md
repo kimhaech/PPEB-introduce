@@ -1,10 +1,10 @@
 # PNP WEB PAGE
 
-- Update Version 0.9
+- Update Version 0.91
 
-  - 날짜 : 2022. 02. 17
-  - 내용 : Blog Page was Uploaded
-  - 작성자 : Jiseok Lee
+  - 날짜 : 2022. 02. 19
+  - 내용 : Merge with taewoo's repo
+  - 작성자 : Seongil Heo
 
 - 팀장 : 이지석
 - 개발자 : 이지석, 김대원, 김시현, 김주원, 김태우
