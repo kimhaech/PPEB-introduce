@@ -380,5 +380,57 @@
       "title": "HUFS Code Festival 서버 구축",
       "name": "허성일"
     }
+  ],
+  "2021": [
+    {
+      "title": "Shape Of Liberty - SJR Teams",
+      "content": "개발",
+      "name": "성재록 정민규 조승현 외 2명"
+    },
+    {
+      "title": "Do 11 - SJR Teams",
+      "content": "Steam 런칭",
+      "name": "성재록 정민규 외 2명"
+    },
+    {
+      "title": "2021 전국대학생 아이디어 경진대회",
+      "content": "우수상",
+      "name": "성재록 김명수 김태우 오영근 이혜영 외 2명"
+    },
+    {
+      "title": "한국외대 AI/SW 창업프로젝트",
+      "content": "선정",
+      "name": "성재록 김명수 김태우 오영근 이혜영 외 2명"
+    },
+    {
+      "title": "창업컨설팅",
+      "content": "수료",
+      "name": "성재록 김명수 김태우 오영근 이혜영 외 2명"
+    },
+    {
+      "title": "서울시 빅데이터 캠퍼스 공모전",
+      "content": "참가",
+      "name": "김주원 유승리 나리나"
+    },
+    {
+      "title": "K-Shield 주니어",
+      "content": "합격",
+      "name": "이유림"
+    },
+    {
+      "title": "Microsoft Learn Student Ambassadors",
+      "content": "합격",
+      "name": "이지석"
+    },
+    {
+      "title": "한국정보기술연구원 'Best of Best'",
+      "content": "합격",
+      "name": "전승현"
+    },
+    {
+      "title": "JunctionX Seoul 2021",
+      "content": "Microsoft Track 2nd Winner",
+      "name": "전승현 이유림 김시현 외 1명"
+    }
   ]
 }
