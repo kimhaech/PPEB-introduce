@@ -9,7 +9,7 @@ const About_activity = () => {
   return (
     <div>
       <Header />
-        <div class="mt-24">
+        <div class="mt-40 lg:mt-24">
             <div className="flex flex-col text-center w-full">
               <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
                 About
@@ -18,7 +18,7 @@ const About_activity = () => {
                 학회소개
               </h1>
             </div>
-            <div className="flex flex-row place-content-center mt-8">
+            <div className="flex flex-wrap lg:flex lg:flex-row place-content-center mt-8">
                 <Link to="/About">
                     <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
                         학회소개
@@ -50,7 +50,7 @@ const About_activity = () => {
 
       <section
       className="text-gray-700 body-font border-t border-gray-200">
-      <div className="flex flex-wrap mt-8 mb-32 ">
+      <div className="flex flex-wrap mt-8 mb-80 xl:mb-96">
           <Fade bottom>
             <div className="p-4 md:w-1/3">
               <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
@@ -254,9 +254,9 @@ const About_activity = () => {
             </div>
           </Fade>
         </div>
-      
+        
       </section>
-      <Footer />
+    <Footer />
     </div>
   );
 };
