@@ -9,7 +9,7 @@ const Recruit = () => {
   return (
     <div>
       <Header />
-      <section id="recruit" className="border-b border-gray-200">
+      <section id="recruit" className="mt-40 md:mt-16 border-b border-gray-200">
                 <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
                     <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
                         <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1 text-center sm:text-left">

@@ -96,7 +96,6 @@ const About = () => {
                     </p>
                     <p className="lg:w-4/5 xl:ml-16 2xl:ml-72 lg:whitespace-nowrap text-lg mt-3 text-left ">
                     2. 컴퓨터 기술 및 이론에 관한 학습을 통해 자신의 소프트웨어 분야 전문성 증진
-                    
                     </p>
                     <p className="lg:w-4/5 xl:ml-16 2xl:ml-72 text-lg mt-3 text-left">
                     3. 학회원들과 함께 협력하며 자신의 프로젝트를 완성
