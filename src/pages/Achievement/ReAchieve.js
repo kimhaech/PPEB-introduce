@@ -26,7 +26,9 @@ const ReAchieve = (props) => {
     <div class={pos[0]}>
       <div class="order-1 w-5/12"></div>
       <div class={pos[1]}>
-        <h3 class="mb-2 font-bold text-black lg:text-xl text-base">{iv[idx]['title']}</h3>
+        <h3 class="mb-2 font-bold text-black lg:text-xl text-base">
+          {iv[idx]['title']}
+        </h3>
         <p class="lg:text-base text-sm leading-snug tracking-wide text-black text-opacity-100 whitespace-pre-line"></p>
         <h4>{iv[idx]['content']}</h4>
         <p>{iv[idx]['name']}</p>
