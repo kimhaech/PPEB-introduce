@@ -16,7 +16,7 @@ const Achievements = () => {
     })
   }
 
-  // mobile --> p-7 mt-28, pt-48 / pc --> p-5 mt-16, pt-32 수정
+  // md: p-5, mt-16 pt-32 --> lg: p-5 mt-16, pt-32 --> p-7 mt-28, pt-48,  수정
   // mobile 글자크기, 한줄 나열
   // 32rem = 512px max-w-lg
 
@@ -49,7 +49,6 @@ const Achievements = () => {
         </div>
       </div>
       <div class="lg:pt-32 pt-48"></div>
-
       {/* <div class="bg-red-100 p-5 mt-16">
         <div className="flex flex-col text-center w-full">
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
