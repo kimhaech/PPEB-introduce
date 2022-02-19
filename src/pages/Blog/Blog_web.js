@@ -12,21 +12,24 @@ const Blog_web = () => {
   return (
     <section id="Blog_web" className="text-gray-700 body-font bg-transparent relative">
       <ParticlesBg type="ball" bg={true} />
-      <br />
-      <br />
       <Header />
+      <br></br>
+      <br></br>
+      <br />
 
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
-          <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
-            posting
-          </h2>
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            Blog
-          </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3 -mb-5">
-            PnP 사람들의 Blog를 소개합니다.
-          </p>
+        <div className='sm:-mt-20'>
+          <div className="flex flex-col text-center w-full mb-20">
+            <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
+              Blog
+            </h2>
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+              Blog
+            </h1>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3 -mb-5">
+              PnP 사람들의 Blog를 소개합니다.
+            </p>
+          </div>
         </div>
 
         <div className="flex flex-row place-content-center mt-8">
