@@ -16,7 +16,7 @@ const FAQ = () => {
     <ParticlesBg type="cobweb" bg={true} />
     <Fade Bottom>
         <div className="flex relative">
-            <div className="container px-5 py-24 md:w-1/3">
+            <div className="hidden lg:block container px-5 py-24 md:w-1/3 mt-4">
                 <div className="bg-white rounded-lg p-8 flex flex-col w-full relative z-10 border border-gray-200 shadow-md">
                     <h2 className="text-indigo-600 text-2xl mb-1 font-medium title-font">
                         Frequently Asked Question
@@ -26,7 +26,7 @@ const FAQ = () => {
                     </p>
                 <div className="flex-auto flex-shrink-0 space-x-2">
                     <input
-                        className="bg-white rounded border md:w-3/4 border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-2 py-2 mb-4"
+                        className="bg-white rounded border w-2/3 xl:w-3/4 border-gray-400 focus:outline-none focus:border-indigo-500 text-xs xl:text-base px-2 py-2 mb-4"
                         placeholder="검색어 입력"
                         value={title}
                         onChange={({ target: { value } }) => setTitle(value)}
@@ -40,7 +40,7 @@ const FAQ = () => {
                         }
                     >
                     </a>
-                    <button className="text-white bg-indigo-500 border-0 w-1/5 py-2 md:px-4 mb-4 focus:outline-none hover:bg-indigo-600 rounded md:text-base">
+                    <button className="text-white bg-indigo-500 border-0 w-1/4 xl:w-1/5 py-2 px-4 mb-4 focus:outline-none hover:bg-indigo-600 rounded text-xs xl:text-base">
                         검색
                     </button>
                 </div>
@@ -53,14 +53,57 @@ const FAQ = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                    <button className="text-white bg-indigo-500 border-0 w-full mt-5 py-2 px-20 focus:outline-none hover:bg-indigo-600 rounded text-base animate-bounce mt-2">
+                    <button className="text-white bg-indigo-500 border-0 w-full mt-5 py-2 px-20 focus:outline-none hover:bg-indigo-600 rounded text-xs xl:text-base animate-bounce">
                         카카오플러스친구 문의하기
                     </button>
                     </a>
                 </div>
             </div>
-        <div className="flex-row flex-1 space-y-3">    
-            <div className="mt-24 mr-4 bg-white rounded-lg p-8 flex flex-col  md:ml-auto relative z-10 border border-gray-200 shadow-md">
+        <div className="mt-24 mx-4 flex-row flex-1 space-y-3">
+            <div className="mt-16 md:mt-0 block lg:hidden container bg-white rounded-lg p-8 flex flex-col mx-auto relative z-10 border border-gray-200 shadow-md">
+                
+                    <h2 className="text-indigo-600 text-2xl mb-1 font-medium title-font">
+                        Frequently Asked Question
+                    </h2>
+                    <p className="leading-relaxed mt-2 mb-5 text-gray-600">
+                        PNP FAQ 게시판입니다. 궁금하신내용을 검색해주세요~
+                    </p>
+                <div className="flex-auto flex-shrink-0 space-x-2">
+                    <input
+                        className="bg-white rounded border w-2/3 md:w-2/3 border-gray-400 focus:outline-none focus:border-indigo-500 text-xs md:text-base px-2 py-2 mb-4"
+                        placeholder="검색어 입력"
+                        value={title}
+                        onChange={({ target: { value } }) => setTitle(value)}
+                    />
+                    <a
+                        href={
+                            'mailto:tjddlf101@hufs.ac.kr?subject=' +
+                            title +
+                            '&body=' +
+                            content
+                        }
+                    >
+                    </a>
+                    <button className="text-white bg-indigo-500 border-0 w-1/4 py-2 px-4 mb-4 focus:outline-none hover:bg-indigo-600 rounded text-xs md:text-base">
+                        검색
+                    </button>
+                </div>
+                    <p className="text-xs text-gray-500 mt-3">
+                        찾는 질문이 없으시면 아래의 카카오톡 플러스칱구를 이용해 질문해주세요~
+                    </p>
+                    <a
+                        className="text-center sm:text-left"
+                        href="http://pf.kakao.com/_kBSxes/chat"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                    <button className="text-white bg-indigo-500 border-0 w-full mt-5 py-2 px-20 focus:outline-none hover:bg-indigo-600 rounded text-xs md:text-base animate-bounce mt-2">
+                        카카오플러스친구 문의하기
+                    </button>
+                    </a>
+                
+            </div>   
+            <div className="lg:mt-24 bg-white rounded-lg p-8 flex flex-col  md:ml-auto relative z-10 border border-gray-200 shadow-md">
                 <button className="text-left text-indigo-600 text-xl mb-1 font-medium title-font item px-6 py-3 bg-indigo-100 rounded-lg mb-8">
                     학회지원은 언제 있나요?
                 </button>
@@ -69,7 +112,7 @@ const FAQ = () => {
                 </div>
             </div>
            
-            <div className="mr-4 bg-white rounded-lg p-8 flex flex-col md:ml-auto  relative z-10 border border-gray-200 shadow-md">
+            <div className="bg-white rounded-lg p-8 flex flex-col md:ml-auto  relative z-10 border border-gray-200 shadow-md">
                     <button className="text-left text-indigo-600 px-3 text-xl mb-1 font-medium title-font item px-6 py-3 bg-indigo-100 rounded-lg mb-8">
                         학회에 개인적으로 질문사항이 있습니다 어떻게 문의할 수 있을까요?
                     </button>
@@ -88,7 +131,7 @@ const FAQ = () => {
                     </a>
             </div>
 
-            <div className="mr-4 bg-white rounded-lg p-8 flex flex-col md:ml-auto  relative z-10 border border-gray-200 shadow-md">
+            <div className="bg-white rounded-lg p-8 flex flex-col md:ml-auto  relative z-10 border border-gray-200 shadow-md">
                 <button className="text-left text-indigo-600 text-xl mb-1 font-medium title-font item px-6 py-3 bg-indigo-100 rounded-lg mb-8">
                     어떻게 활동 하나요?
                 </button>
@@ -102,7 +145,7 @@ const FAQ = () => {
                 </div>
             </div>
 
-            <div className="mr-4 bg-white rounded-lg p-8 flex flex-col md:ml-auto  relative z-10 border border-gray-200 shadow-md">
+            <div className="bg-white rounded-lg p-8 flex flex-col md:ml-auto  relative z-10 border border-gray-200 shadow-md">
                 <button className="text-left text-indigo-600 text-xl mb-1 font-medium title-font item px-6 py-3 bg-indigo-100 rounded-lg mb-8">
                     타학과도 지원가능한가요?
                 </button>

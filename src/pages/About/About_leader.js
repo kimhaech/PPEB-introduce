@@ -12,7 +12,7 @@ const About_leader = () => {
   return (
     <div>
         <Header />
-        <div class="mt-24">
+        <div class="mt-40 lg:mt-24">
             <div className="flex flex-col text-center w-full">
               <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
                 About
@@ -21,7 +21,7 @@ const About_leader = () => {
                 학회소개
               </h1>
             </div>
-            <div className="flex flex-row place-content-center mt-8">
+            <div className="flex flex-wrap lg:flex lg:flex-row place-content-center mt-8">
                 <Link to="/About">
                     <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-black-800 text-lg">
                         학회소개
@@ -50,10 +50,10 @@ const About_leader = () => {
                 </Link>
             </div>
         </div>
-      <section className= "border-t border-gray-200">
+      <section className= "border-t border-gray-200 md:mg-32 lg:mb-0">
       <div className="flex flex-wrap justify-center gap-4">
       <Fade bottom>
-      <div className="flex flex-col text-center w-1/4 mb-8 mt-12">
+      <div className="flex flex-col text-center md:w-1/3 lg:w-1/4  mb-8 mt-12">
           <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
             <div class="md:flex-col">
               <div class="md:flex-shrink-0">
@@ -73,7 +73,7 @@ const About_leader = () => {
             </div>
           </div>
         </div>
-      <div className="flex flex-col text-center w-1/4 mb-8 mt-12">
+      <div className="flex flex-col text-center md:w-1/3 lg:w-1/4  mb-8 mt-12">
           <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
             <div class="md:flex-col">
               <div class="md:flex-shrink-0">
@@ -94,7 +94,7 @@ const About_leader = () => {
           </div>
         </div>
 
-        <div className="flex flex-col text-center w-1/4 mb-8 mt-12">
+        <div className="flex flex-col text-center md:w-1/3 lg:w-1/4  mb-8 mt-12">
           <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
             <div class="md:flex-col">
               <div class="md:flex-shrink-0">
@@ -115,7 +115,7 @@ const About_leader = () => {
           </div>
         </div>
 
-        <div className="flex flex-col text-center w-1/4 mb-8 mt-12">
+        <div className="flex flex-col text-center md:w-1/3 lg:w-1/4 mb-8 mt-12">
           <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
             <div class="md:flex-col">
               <div class="md:flex-shrink-0">
@@ -125,8 +125,8 @@ const About_leader = () => {
               />
               </div>
               <div class="p-8">
-                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">2018</h2>
-                <h1 class="sm:text-2xl font-medium title-font mb-4 text-gray-900">정희택</h1>
+                <h2 class="text-indigo-500 tracking-widest font-medium title-font mb-1">2018</h2>
+                <h1 class="font-medium title-font mb-4 text-gray-900">정희택</h1>
                 <p className="mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
                 디지털정보공학과 12학번
                 <br/>이메일 : XXXXX@gmail.com
