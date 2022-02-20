@@ -88,7 +88,7 @@ const About = () => {
               />
               </div>
               <div class="p-8">
-                  <h2 className="text-indigo-500 tracking-widest font-medium title-font xl:ml-16 2xl:ml-72 mb-1">Our Goal</h2>
+                  <h2 className="text-indigo-500 tracking-widest font-medium title-font xl:ml-16 2xl:ml-64 mb-1">Our Goal</h2>
                   <h1 className="font-medium title-font mb-4 text-gray-900 xl:ml-16 2xl:ml-72 text-center">학회 목적</h1>
                   <div class = "space-y-2">
                     <p className ="lg:w-4/5 xl:ml-16 2xl:ml-72 text-lg mt-3 text-left ">
