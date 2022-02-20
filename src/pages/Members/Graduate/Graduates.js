@@ -5,6 +5,7 @@ import ShowGraduate from './ShowGraduate';
 import Buttons from './Buttons';
 import Band from './Band';
 import Footer from '../../../components/Footer';
+import Scrollup from '../../../components/Scrollup';
 
 class Graduates extends Component {
 
@@ -19,6 +20,7 @@ class Graduates extends Component {
           <ShowGraduate />
         </div>
         <Footer />
+        <Scrollup />
       </div>
     )
   }
