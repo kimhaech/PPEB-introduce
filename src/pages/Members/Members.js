@@ -14,7 +14,7 @@ const Members = () => {
       <Buttons />
       <MakeChart />
       {/* <MakeChart/> */}
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 pt-2 pb-24 mx-auto">
         <ShowMember />
       </div>
       <Footer />

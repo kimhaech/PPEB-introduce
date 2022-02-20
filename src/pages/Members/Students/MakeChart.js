@@ -81,7 +81,7 @@ class MakeChart extends Component {
       i = i + 1
     }
     return (
-      <div class="flex flex-row justify-center">
+      <div class="flex flex-row justify-center py-2">
         <div class="">
           <Chart
             width={'30vw'}
