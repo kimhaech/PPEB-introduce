@@ -15,7 +15,9 @@ class Graduates extends Component {
         <IntroduceGraduate />
         <Buttons />
         <Band />
-        <ShowGraduate />
+        <div className="container px-5 pb-24 mx-auto">
+          <ShowGraduate />
+        </div>
         <Footer />
       </div>
     )
