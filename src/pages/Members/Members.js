@@ -5,6 +5,7 @@ import MakeChart from './Students/MakeChart';
 import ShowMember from './Students/ShowMember';
 import Buttons from './Students/Buttons';
 import Footer from '../../components/Footer';
+import Scrollup from '../../components/Scrollup';
 
 const Members = () => {
   return (
@@ -18,6 +19,8 @@ const Members = () => {
         <ShowMember />
       </div>
       <Footer />
+      <Scrollup />
+
     </div>
   )
 };
