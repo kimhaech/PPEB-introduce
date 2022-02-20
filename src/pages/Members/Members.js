@@ -13,7 +13,7 @@ const Members = () => {
       <Introduce />
       <Buttons />
       <MakeChart />
-      {/*<MakeChart/>*/}
+      {/* <MakeChart/> */}
       <ShowMember />
       <Footer />
     </div>
