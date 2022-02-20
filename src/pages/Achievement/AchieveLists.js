@@ -19,10 +19,11 @@ const AchieveLists = () => {
   }
 
   // 태그 return
+  // 중앙선 태블릿, 모바일 사이즈 --> 사라짐 
   return (
     <div class="container bg-white-200 mx-auto w-full h-full">
       <div class="relative wrap overflow-hidden p-10 h-full">
-        <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border left-1/2"></div>
+        <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full lg:border left-1/2"></div>
         {y_li.map((year, index) => (
           <div id="{year}">
             <Showachieve year={year} index={index}></Showachieve>

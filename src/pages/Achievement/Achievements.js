@@ -25,7 +25,7 @@ const Achievements = () => {
     <div>
       <Header />
       <div class="fixed inset-x-0 top-0 left-0 z-40 right-0">
-        <div class="bg-white lg:p-5 lg:mt-16 p-7 mt-28">
+        <div class="bg-white md:p-5 lg:p-5 p-7 md:mt-16 lg:mt-16 mt-28">
           <div className="flex flex-col text-center w-full">
             <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
               Achievements Page
@@ -48,7 +48,7 @@ const Achievements = () => {
           </div>
         </div>
       </div>
-      <div class="lg:pt-32 pt-48"></div>
+      <div class="md:pt-32 lg:pt-32 pt-48"></div>
       {/* <div class="bg-red-100 p-5 mt-16">
         <div className="flex flex-col text-center w-full">
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
